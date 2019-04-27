@@ -39,6 +39,11 @@ int main(int argc, char *argv[])
         files.append(QUrl::fromLocalFile(filePath));
     }
 
+    if (files.length() < 1) {
+        qWarning() << "Error: No files to drag";
+        return 1;
+    }
+
     QMainWindow w;
     QDrag drag(&w);
 
