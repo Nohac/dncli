@@ -10,7 +10,7 @@ dncli files.txt to.md drag.gif
 > Move cursor to desired drop zone and left click
 
 ## Build instructions
-> Note: Qt5 and above is required to build
+> Note: Qt5 or above is required to build
 
 ```bash
 qmake
